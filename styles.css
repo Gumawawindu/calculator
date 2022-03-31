@@ -1,0 +1,69 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  html {
+    font-family: "Montserrat", sans-serif;
+  }
+  section {
+    background-color: rgba(164, 143, 185, 0.623);
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .container {
+    width: 90%;
+    max-width: 400px;
+    background-color: rgba(182, 236, 250, 0.685);
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  .display {
+    background-color: rgba(79, 120, 167, 0.671);
+    height: 100px;
+    width: 100%;
+    text-align: right;
+    padding: 20px;
+    font-size: 30px;
+    position: relative;
+  }
+  .display-1 {
+    opacity: 0.4;
+    font-size: 20px;
+    height: 20px;
+    overflow: hidden;
+  }
+  .temp-result {
+    position: absolute;
+    bottom: 0;
+    left: 10;
+    font-size: 20px;
+    opacity: 0.3;
+  }
+  .all_button {
+    color: rgba(31, 29, 2, 0.836);
+    display: grid;
+    grid-template: repeat(4, 1fr) / repeat(4, 1fr);
+  }
+  .button {
+    border: 0.5px solid rgba(79, 120, 167, 0.671);
+    display: inline-block;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    cursor: pointer;
+  }
+
+  .button:hover {
+    background-color: rgba(167, 134, 185, 0.356);
+  }
+  .btn-0 {
+    grid-column: 1/3;
+  }
+  
